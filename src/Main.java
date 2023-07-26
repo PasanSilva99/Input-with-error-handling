@@ -20,7 +20,7 @@ public class Main{
         try{
             return Integer.parseInt(userIn);
         }
-        catch (Exception _e) {
+        catch (RuntimeException _e) {
             System.out.println("Please enter a valid number");
             return getInput();
         }
